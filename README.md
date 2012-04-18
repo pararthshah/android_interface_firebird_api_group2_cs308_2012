@@ -1,4 +1,4 @@
-2012 - CS308  Group 2 : Project Android Interface - Firebird API
+[2012 - CS308  Group 2 : Project Android Interface - Firebird API](#)
 ================================================================
 
 Group Info:
@@ -8,10 +8,6 @@ Group Info:
 +   Darshan Kapashi (09005004)
 +   Siddhesh Chaubal (09005008)
 
-Extension Of
-------------
-
-We have used some code from the Swiss Army Knife project for one of our modules.
 
 Project Description
 -------------------
@@ -47,6 +43,11 @@ Software required :
 +	Android 2.3.3 SDK (API 10)
 +	Eclipse IDE with ADT Plugin (http://www.eclipse.org/downloads/)
 
+Instructions :
+
+Install the required software mentioned above. Download the zip file from here or clone the project. You should be able to import projects into Eclipse IDE and compile them
+
+First import the Firebird API, then import the sample apps. Now connect the Android device via USB, and run the sample app on your device.
 
 References
 ===========
