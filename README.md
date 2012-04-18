@@ -37,13 +37,15 @@ Technologies Used
 Installation Instructions
 =========================
 
-Software required :
+Software required
+-----------------
 
 +	AVR Studio (http://developer.android.com/sdk/index.html)
 +	Android 2.3.3 SDK (API 10)
 +	Eclipse IDE with ADT Plugin (http://www.eclipse.org/downloads/)
 
-Instructions :
+Instructions
+------------
 
 Install the required software mentioned above. Download the zip file from here or clone the project. You should be able to import projects into Eclipse IDE and compile them
 
