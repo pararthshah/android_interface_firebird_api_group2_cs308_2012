@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to the Firebird Control Panel!</string>
+    <string name="app_name">MissionControl</string>
+    <string name="Left">Left</string>
+    <string name="Forward">Forward</string>
+    <string name="Right">Right</string>
+    <string name="Velocity_Bar">                       Velocity Bar</string>
+    <string name="Reset">Reset</string>
+    <string name="Conn_Status">Not Connected</string>
+
+</resources>
