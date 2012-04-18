@@ -44,12 +44,28 @@ Software required
 +	Android 2.3.3 SDK (API 10)
 +	Eclipse IDE with ADT Plugin (http://www.eclipse.org/downloads/)
 
-Instructions
-------------
+Software Setup
+--------------
 
 Install the required software mentioned above. Download the zip file from here or clone the project. You should be able to import projects into Eclipse IDE and compile them
 
 First import the Firebird API, then import the sample apps. Now connect the Android device via USB, and run the sample app on your device.
+
+Hardware required
+-----------------
+
++	Firebird V
++	Mobile device running Android 2.3.3 SDK (API 10)
++	Bluetooth Communication Module
+
+Hardware Setup
+--------------
+
+We assume that you are able to setup a Firebird V bot. You need to attach a Bluetooth Communication module to the bot. 
+
+We have used the BlueLINK module from RhydoLabs (www.rhydolabs.org), model no WRL - 1323. We have provided the user manual for the BlueLINK module in this directory. Please follow the instructions in the manual to connect the module to the correct port of the Firebird.
+
+Any other Bluetooth module should also work, provided you are able to connect it correctly to the bot.
 
 References
 ===========
