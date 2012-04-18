@@ -1,0 +1,64 @@
+ScreenCast Transcript
+
+//Show how to install eclipse
+Go to http://www.eclipse.org/downloads/
+Click on "Eclipse Classic 3.7.2" -> Windows 32 bit
+Click on the given mirror on this page
+It should start downloading now
+The downloaded file contains a self-explanatory installer.
+For the sake of saving time, we will assume that you have downloaded and installed the eclipse IDE
+
+//Show how to install Android sdk
+We will now install the Android SDK
+Go to http://developer.android.com/sdk/index.html
+Choose "installer_r18-windows.exe"
+Run the installer
+
+//Show how to install ADT Plugin
+	//Go to install new software - copy paste link
+	Once the android SDK is installed, we will now install the ADT Plugin
+	Go to http://developer.android.com/sdk/eclipse-adt.html#installing
+	Copy the link "https://dl-ssl.google.com/android/eclipse/"
+	Open eclipse
+	Go to Help->Install new software
+	Paste the link in the box
+	Wait for it to load
+	Check Android Development Tools
+	And click next. This will take time, keep clicking next / finish and the plugin will be installed
+	We also need to make eclipse point to the location where the android sdk is installed.
+	Go to Window -> Preferences -> Android
+	Give it the location of the SDK in the box
+	
+//Download project from github repo
+	Now, that we have setup our IDE, let's download the project code
+	Go to "https://github.com/pararthshah/android_interface_firebird_api_group2_cs308_2012"
+	Go to Downloads and download the code
+	Extract the code
+	
+//Import Firebird API library
+	In eclipse, right click in the package explorer and click Import.
+	Select "existing projects into workspace" and point it to the location of the code.
+
+//Import sample app
+	Now, in the same way, import the FB Controller code into eclipse.
+
+//Show interface
+	In the package explorer, go to res -> layout -> main.xml
+	This shows you the layout of the main screen of the app
+
+//Right click and click on Run as..
+	To install and run this app on an android device, connect the device to the computer via USB.
+	Right click on the project and select Run As->Android Application
+	This will install the application on the android phone and you can test it out now!
+	
+//Show screen shot of bluetooth module connections
+	This is the software part of the screen cast.
+	We also need to connect the bluetooth module to the firebird.
+	The following images will show how the module is connected.
+	The TX of the module goes into pin 45 of the Firebird in the slot.
+	Refer to the firebird hardware manual to exactly locate this pin.
+	The RX of the module goes into pin 46 of the Firebird
+	Also, connect the VCC and GND pins as shown in the image.
+	The VCC goes in the 2nd row, 2nd pin from the left and GND goes in the 3rd pin in the 2nd row.
+	
+	This completes the installation instructions. Thank You!
