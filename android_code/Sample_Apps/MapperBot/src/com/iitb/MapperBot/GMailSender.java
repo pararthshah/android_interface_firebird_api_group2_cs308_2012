@@ -18,8 +18,8 @@ import java.util.Properties;
 
 public class GMailSender extends javax.mail.Authenticator {   
     private String mailhost = "auth-iitb.ac.in";   
-    private String user = "pararth";   
-    private String password = "p@r@rths";   
+    private String user = "your-ldap-id";   
+    private String password = "your-ldap-passwd";   
     private Session session;   
 
     static {   
